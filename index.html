@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.03rem;
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(153, 153, 226);
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 60px 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 2rem;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+
+      .image-top {
+        width: 50px;
+        position: relative;
+        top: -57px;
+        left: -24px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 50px;
+        width: 205px;
+      }
+
+      .vertical-company {
+        position: relative;
+        width: 126px;
+        top: 54px;
+        font-size: small;
+      }
+
+      .vertical-year {
+        position: relative;
+        width: 110px;
+        top: 53px;
+        
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 60px;
+        color: gray;
+        width: 153px;
+        font-size: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Akash's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi! My name is <span class="purple">Akash</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="il.png" alt="" />
+            <div class="vertical-title">Subject Matter Expert</div>
+            <div class="vertical-year">2021-2022</div>
+            <div class="vertical-company">Infinity Learn</div>
+            <div class="vertical-desc">
+              Worked as doubts session teacher and teaching them on live video
+              sessions for classes 8th to 12th.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ac.png" alt="" />
+            <div class="vertical-title">Coordinator</div>
+            <div class="vertical-year">2021-2023</div>
+            <div class="vertical-company">Aero Club BMSIT&M</div>
+            <div class="vertical-desc">
+              Worked as a Club Coordinator where I managed and hosted all the
+              events, seminars and workshops for the club, sometimes
+              collaborated with other colleges in the events.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ch.png" alt="" />
+            <div class="vertical-title">Chemistry Expert</div>
+            <div class="vertical-year">2022-2023</div>
+            <div class="vertical-company">Chegg</div>
+            <div class="vertical-desc">
+              Worked as Chemistry Expert in which I had solved the questions
+              asked by the students.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="oi.png" alt="" />
+            <div class="vertical-title">Data Science Intern</div>
+            <div class="vertical-year">2024</div>
+            <div class="vertical-company">Oasis Infobyte</div>
+            <div class="vertical-desc">
+              Conducted exploratory data analysis on large-scale, complex raw
+              datasets, employing statistical techniques to uncover actionable
+              trends and valuable business insights. Developed and optimized
+              robust predictive models using cutting-edge machine learning
+              algorithms.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="nc.png" alt="" />
+            <div class="vertical-title">Full Stack Web Developer</div>
+            <div class="vertical-year">2024</div>
+            <div class="vertical-company">Null Class</div>
+            <div class="vertical-desc">
+              Assessed product capabilities and identified advantageous feature
+              enhancements to cultivate an optimal user experience, while
+              prioritizing scalability and cross-platform compatibility.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Software Developer",
+          "Data Analyst",
+          "DevOps Engineer...",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
